@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib":["es5","ES2015","ES2016","dom","ESNext"],
+    "types": ["node","@types/styled-components"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "outDir": "dist/esm",
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/**/*.ts","src/**/*.tsx"],
+   "plugins": [{ "name": "typescript-plugin-css-modules" }]
+}
